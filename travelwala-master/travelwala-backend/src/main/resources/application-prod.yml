@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://phananh1310:phananh1310@cluster0.abpbn.mongodb.net/test

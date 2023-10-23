@@ -1,0 +1,9 @@
+export const passengerSelector = (state) => state.criteria.passenger;
+export const airportSelector = (state) => state.criteria.airport;
+export const dateSelector = (state) => state.criteria.date;
+export const seatClassSelector = (state) => state.criteria.seatClass;
+export const roundTripSelector = (state) => state.criteria.roundTrip;
+export const passengerListSelector = (state) => state.booking.passengers
+export const contactInfoSelector = (state) => state.booking.contactDetail
+export const departureFlightSelector = (state) => state.booking.departureFlight
+export const returnFlightSelector = (state) => state.booking.returnFlight

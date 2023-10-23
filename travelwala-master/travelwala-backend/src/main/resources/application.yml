@@ -1,0 +1,33 @@
+host: 103.163.119.109:8080
+redirect-host: travelwala-frontend.herokuapp.com
+server:
+  port: 8080
+
+spring:
+  profiles:
+    default: dev
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/travelwala
+      database: travelwala
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1046892340746-7jpqku689ato3k2p7cjco1egjjq51pqd.apps.googleusercontent.com
+            client-secret: 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
+          facebook:
+            client-id: 817594649135435
+            client-secret: fb015a61be3ed030f2f2516e71c86543
+            scope:
+              - email
+              - public_profile
+        provider:
+          facebook:
+            authorizationUri: https://www.facebook.com/v3.0/dialog/oauth
+            tokenUri: https://graph.facebook.com/v3.0/oauth/access_token
+            userInfoUri: https://graph.facebook.com/v3.0/me?fields=id,email,first_name,middle_name,last_name,name,verified,picture.width(250).height(250)
+
+stripe:
+  api_key: sk_test_51LIPOjC6tixmsEI6zcNqgOimJ0k8ISd85qRU5GhVLfSDlcLeBzUk4JcOtFb72JdzJWZvLi6XUvkZRYQu4giyK6hJ00xexJeZt1

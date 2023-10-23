@@ -1,0 +1,35 @@
+#box {
+    position: relative;
+    height: 500px;
+    /*border: 3px solid red;*/
+}
+
+#left-side {
+    position: absolute;
+    width: 350px;
+    left: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#departure-date {
+    position: absolute;
+    width: 250px;
+    margin-left: 430px;
+    margin-top: 49px;
+}
+
+#return-date {
+    position: absolute;
+    width: 250px;
+    margin-left: 720px;
+    margin-top: 49px;
+}
+
+#right-side {
+    position: absolute;
+    width: 400px;
+    margin-left: 1000px;
+    margin-top: 49px;
+}
