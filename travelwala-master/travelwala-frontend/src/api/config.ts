@@ -1,5 +1,5 @@
-import { AxiosRequestConfig } from 'axios';
-import qs from 'qs';
+import { AxiosRequestConfig } from "axios";
+import qs from "qs";
 
 export const SERVER_URL = `http://127.0.0.1:8080`;
 export const API_BASE_URL = `${SERVER_URL}/api`;
@@ -7,10 +7,10 @@ export const API_BASE_URL = `${SERVER_URL}/api`;
 export const axiosConfig = (): AxiosRequestConfig => {
   return {
     baseURL: API_BASE_URL,
-    responseType: 'json',
+    responseType: "json",
     validateStatus: (status: number) => status >= 200 && status < 300,
     paramsSerializer(params) {
-      return qs.stringify(params, { arrayFormat: 'comma' });
+      return qs.stringify(params, { arrayFormat: "comma" });
     },
   };
 };
