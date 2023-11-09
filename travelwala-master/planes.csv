@@ -1,0 +1,24 @@
+manufacturer,iata,icao,maximum_economic_capacity,maximum_business_capacity,description
+Airbus,A320neo,A32N,180,52,Short-haul narrow-body airliner
+Airbus,A330-200,A332,253,44,Medium-haul wide-body airliner
+Airbus,A330-300,A333,440,66,Medium- to long-haul wide-body airliner
+Airbus,A350-900,A359,325,48,Long-haul wide-body airliner
+Airbus,A350-1000,A35K,369,52,Long-haul wide-body airliner
+Boeing,737-700,B737,149,52,Short-haul narrow-body airliner
+Boeing,737-800,B738,189,52,Short-haul narrow-body airliner
+Boeing,737 MAX 8,B7M8,189,52,Short-haul narrow-body airliner
+Boeing,747-400,B744,416,66,Long-haul wide-body airliner
+Boeing,747-8 Intercontinental,B748,467,68,Long-haul wide-body airliner
+Boeing,777-200ER,B772,451,66,Long-haul wide-body airliner
+Boeing,777-300ER,B77W,550,66,Long-haul wide-body airliner
+Boeing,787-8,B788,242,52,Medium- to long-haul wide-body airliner
+Boeing,787-9,B789,290,60,Medium- to long-haul wide-body airliner
+Boeing,787-10,B78X,330,68,Medium- to long-haul wide-body airliner
+Embraer,E190-E2,E19E,114,28,Regional jet
+Embraer,E195-E2,E195,146,36,Regional jet
+Mitsubishi,MRJ90,MRJ9,92,28,Regional jet
+Comac,C919,C919,168,32,Narrow-body airliner
+Bombardier,CRJ700,CRJ7,78,12,Regional jet
+Bombardier,CRJ900,CRJ9,90,12,Regional jet
+ATR,ATR 72-600,AT76,70,Turboprop regional airliner,
+ATR,ATR 42-600,AT46,50,Turboprop regional airliner,
