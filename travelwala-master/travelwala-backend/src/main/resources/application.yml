@@ -1,14 +1,14 @@
-host: 103.163.119.109:8080
-redirect-host: travelwala-frontend.herokuapp.com
+host:
+  103.163.119.109:8080
+redirect-host:
+  travelwala-frontend.herokuapp.com
 server:
   port: 8080
 
 spring:
-  profiles:
-    default: dev
   data:
     mongodb:
-      uri: mongodb://127.0.0.1:27017/travelwala
+      uri: mongodb://127.0.0.1
       database: travelwala
   security:
     oauth2:
@@ -31,3 +31,4 @@ spring:
 
 stripe:
   api_key: sk_test_51LIPOjC6tixmsEI6zcNqgOimJ0k8ISd85qRU5GhVLfSDlcLeBzUk4JcOtFb72JdzJWZvLi6XUvkZRYQu4giyK6hJ00xexJeZt1
+
