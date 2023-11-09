@@ -1,0 +1,2 @@
+airline: https://www.kaggle.com/datasets/open-flights/airline-database/
+airport: https://www.kaggle.com/datasets/thoudamyoihenba/airports
